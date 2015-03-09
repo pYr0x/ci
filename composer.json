@@ -1,0 +1,12 @@
+{
+  "name": "22/ci",
+  "description": "Test with travis ci and codeception",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Julian",
+      "email": "foo@bar.com"
+    }
+  ]
+}
