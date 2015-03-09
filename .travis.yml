@@ -36,7 +36,7 @@ before_script:
   - sudo sed -e "s?%TRAVIS_BUILD_DIR%?$(pwd)?g" --in-place /etc/apache2/sites-available/default
   - sudo service apache2 restart
   # Configure custom domain
-  echo "127.0.0.1 mydomain.local" | sudo tee --append /etc/hosts
+  - echo "127.0.0.1 mydomain.local" | sudo tee --append /etc/hosts
 
   - beanstalkd -d -l 127.0.0.1 -p 11300
   - export DISPLAY=:99.0
