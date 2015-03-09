@@ -14,5 +14,5 @@ modules:
 #        PhpBrowser:
 #            url: 'http://localhost/'
         WebDriver:
-            url: 'http://localhost/'
+            url: 'https://www.google.de/'
             browser: 'firefox'
